@@ -38,7 +38,7 @@ voices = [f"{v['ShortName']}-{v['Gender']}" for v in tts_voice_list]
 
 hubert_model = None
 
-f0method_mode = ["pm", "harvest", "crepe"]
+f0method_mode = ["dio", "pm", "harvest", "crepe"]
 f0method_info = "PM is fast, Harvest is good but extremely slow, and Crepe effect is good but requires GPU (Default: PM)"
 
 if os.path.isfile("rmvpe.pt"):
